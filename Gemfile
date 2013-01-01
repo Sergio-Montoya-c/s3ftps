@@ -8,6 +8,9 @@ gem 'rails', '3.2.9'
 gem 'sqlite3'
 
 
+#Run an FTP server that persists all data to an Amazon S3 bucket
+gem "s3ftp", "~> 0.0.1"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
